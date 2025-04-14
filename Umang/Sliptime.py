@@ -2,9 +2,9 @@ import time
 def sliptime(data):
     for n in range(1,5):
         if data == 1:
-            name="----- Resistresion Successful -----"
+            name=" "
         if data == 2:
-            name="---------- Display All Records ----------"
+            name=" "
         if data == 3:
             name=" "
         print("\rIn progress"+"." * n,end="")
