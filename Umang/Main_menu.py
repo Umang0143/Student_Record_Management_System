@@ -1,14 +1,16 @@
-import choice_option
+import Choice_option
 
-def menu():
+def Menu():
 
     while True:
-        print("\n----- Student Record Management System -----")
-        print("press 1. Student Resistresion")
-        print("press 2. Display All Records")
-        print("press 3. Search Student")
-        print("press 0. Exit")
-        print("=" * 45)
+        print("=" * 50)
+        print("        Student Record Management System")
+        print("=" * 50)
+        print("1. Student Registration")
+        print("2. Display All Records")
+        print("3. Search Student")
+        print("0. Exit")
+        print("=" * 50)
 
-        choice_option.chioceoption()      
-menu()
+        Choice_option.get_user_choice()      
+Menu()
